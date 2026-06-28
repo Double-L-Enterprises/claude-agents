@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: "Research and analysis agent for codebase exploration, documentation lookup, web research, finding patterns, and gathering information. Use when the task is about understanding, finding, or analyzing — not changing code."
-model: auto
+model: nvidia/nemotron-3-nano-30b
 tools:
   - Bash
   - Read
